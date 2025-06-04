@@ -1,0 +1,46 @@
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+# By @ecco2kfr
+
+$FGTK_THEME = Rose-Pine
+$ICON_THEME = Tela-pink-dark
+$COLOR_SCHEME = prefer-dark
+
+# Optional: The varibles above will be set automatically when the theme is loaded
+# This exec commands will soon be deprecated
+
+exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
+exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
+exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
+
+general {
+    gaps_in = 8
+    gaps_out = 10
+    border_size = 2
+    col.active_border = rgba(205,114,135,1)  rgba(0,0,0,0) 130deg
+    col.inactive_border = rgba(40,50,60,0.6) rgba(80,50,120,0.4) 56deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(50,100,150,1) rgba(200,110,130,0.9) 45deg
+    col.border_inactive = rgba(40,50,60,0.6) rgba(80,50,120,0.6) 45deg
+    col.border_locked_active = rgba(40,80,120,0.9) rgba(180,90,110,0.9) 45deg
+    col.border_locked_inactive = rgba(30,35,45,0.6) rgba(60,40,90,0.6) 45deg
+}
+
+decoration {
+    rounding = 5
+    shadow:enabled = false
+
+    blur {
+        enabled = yes
+        size = 8
+        passes = 2
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = blur,waybar

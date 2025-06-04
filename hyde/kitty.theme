@@ -1,0 +1,70 @@
+$HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
+# By @ecco2kfr
+
+foreground #C8DCE6
+background #14191E
+
+
+#Colors
+
+color0 #14191E
+color8 #28323C
+
+color1 #CD7287
+color9 #C85A74
+
+color2 #CD7287
+color10 #C85A74
+
+color3 #C8DCE6
+color11 #FFFFFF
+
+color4 #CD7287
+color12 #C85A74
+
+color5 #503278
+color13 #CD7287
+
+color6 #C8DCE6
+color14 #B4C8D2
+
+color7 #C8DCE6
+color15 #FFFFFF
+
+
+# Cursor
+cursor #c0caf5
+cursor_text_color #2A323C
+
+# Selection highlight
+selection_foreground none
+selection_background #C85A74
+
+# The color for highlighting URLs on mouse-over
+url_color #50A4B5
+
+# Window borders
+active_border_color #326496
+inactive_border_color #28323C	
+bell_border_color #CD7287
+
+# Tab bar
+tab_bar_style fade
+tab_fade 1
+active_tab_foreground   #FFFFFF
+active_tab_background   #503278
+active_tab_font_style   bold
+inactive_tab_foreground #3A244B
+inactive_tab_background #C8DCE6
+inactive_tab_font_style bold
+tab_bar_background #1E252D
+
+# Title bar
+macos_titlebar_color #1C2A3C
+
+# Storm
+# background #24283b
+# cursor_text_color #24283b
+# active_tab_background   #1f2335
+# inactive_tab_background #1f2335
+# macos_titlebar_color #1f2335
