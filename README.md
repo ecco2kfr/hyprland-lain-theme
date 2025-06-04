@@ -6,7 +6,7 @@
 
 <p align="center">
 
-  <img src="img/screen.png" alt="Base screen" width="800">
+  <img src="img/screen.png" alt="Base screen" width="600">
 
 </p>
 
@@ -16,6 +16,6 @@
 
 <p align="center">
 
-  <img src="img/neofetch.png" alt="Neofetch" width="800">
+  <img src="img/neofetch.png" alt="Neofetch" width="600">
 
 </p>
