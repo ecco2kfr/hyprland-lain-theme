@@ -1,9 +1,21 @@
 # Too lazy to write readme sorry js replace files and dl nerd fonts
 
+
 ## Desktop Screen
 
-![Base screen](img/screen.png)
+
+<p align="center">
+
+  <img src="img/screen.png" alt="Base screen" width="800">
+
+</p>
+
 
 ## Neofetch 
 
-![Neofetch](img/neofetch.png) 
+
+<p align="center">
+
+  <img src="img/neofetch.png" alt="Neofetch" width="800">
+
+</p>
